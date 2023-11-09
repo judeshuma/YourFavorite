@@ -7,7 +7,7 @@ case "$response" in
     "Cake" )      echo "Great choice! Even better with a glass of milk!";;
     "Ice cream" ) echo "Great choice! Be sure to eat it before it melts!";;
     "Pie" )       echo "Great choice! You should try having it a la mode!";;
-else        echo "Maybe dessert isn't your favorite"
+     "*")        echo "Maybe dessert isn't your favorite"
 esac
 exit 0
 
